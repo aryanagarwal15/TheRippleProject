@@ -105,6 +105,9 @@ body a:hover{
 .logo a:hover{
 	text-decoration:none;
 }
+.logo img{
+    width: 30%;
+}
 .top-nav {
     margin-top: 1.1%;
 }
@@ -945,6 +948,12 @@ a.tooltips span:before {
 }
 }
 @media (max-width:1080px){
+.logo{
+    max-width: 40%;
+}
+.logo img{
+    width: 40%;
+}
 .banner-text h3 {
     font-size: 1.7em;
 }
@@ -1138,7 +1147,7 @@ a.tooltips span:before {
 }
 .add-left p {
     font-size: 16px;
-    width: 69%;
+    width: 50%;
     margin-left: 11px;
 }
 .address {
@@ -1159,6 +1168,12 @@ a.tooltips span:before {
 }
 }
 @media (max-width:768px){
+    .logo{
+        max-width: 70%;
+    }
+.logo img{
+    width: 20%;
+}
 .h-left,.h-right {
     width: 50%;
     float: left;
@@ -1281,7 +1296,7 @@ a.tooltips span:before {
 	padding: 3.6% 4%;
 }
 .team-left {
-    width: 25%;
+    width: 100%;
     float: left;
     padding: 0 5px;
 }
@@ -1648,7 +1663,7 @@ figure.effect-oscar figcaption {
     font-size: 13px;
 }
 .team-left {
-    width: 50%;
+    width: 100%;
     float: left;
     padding: 0 8px;
     margin: 10px 0;
